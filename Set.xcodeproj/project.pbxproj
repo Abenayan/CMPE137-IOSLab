@@ -14,6 +14,8 @@
 		EE48518523235B7100D5401E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE48518323235B7100D5401E /* LaunchScreen.storyboard */; };
 		EE48519023235B7200D5401E /* SetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE48518F23235B7200D5401E /* SetTests.swift */; };
 		EE48519B23235B7200D5401E /* SetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE48519A23235B7200D5401E /* SetUITests.swift */; };
+		EE4851AA23235F8000D5401E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4851A923235F8000D5401E /* Card.swift */; };
+		EE4851AC2323634900D5401E /* SetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4851AB2323634900D5401E /* SetModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		EE48519623235B7200D5401E /* SetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE48519A23235B7200D5401E /* SetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUITests.swift; sourceTree = "<group>"; };
 		EE48519C23235B7200D5401E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4851A923235F8000D5401E /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		EE4851AB2323634900D5401E /* SetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,12 @@
 		EE48517923235B7100D5401E /* Set */ = {
 			isa = PBXGroup;
 			children = (
-				EE48517A23235B7100D5401E /* AppDelegate.swift */,
+				EE4851A823235B9500D5401E /* Supporting Files */,
 				EE48517C23235B7100D5401E /* ViewController.swift */,
 				EE48517E23235B7100D5401E /* Main.storyboard */,
-				EE48518123235B7100D5401E /* Assets.xcassets */,
-				EE48518323235B7100D5401E /* LaunchScreen.storyboard */,
 				EE48518623235B7100D5401E /* Info.plist */,
+				EE4851AB2323634900D5401E /* SetModel.swift */,
+				EE4851A923235F8000D5401E /* Card.swift */,
 			);
 			path = Set;
 			sourceTree = "<group>";
@@ -123,6 +127,16 @@
 				EE48519C23235B7200D5401E /* Info.plist */,
 			);
 			path = SetUITests;
+			sourceTree = "<group>";
+		};
+		EE4851A823235B9500D5401E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE48517A23235B7100D5401E /* AppDelegate.swift */,
+				EE48518123235B7100D5401E /* Assets.xcassets */,
+				EE48518323235B7100D5401E /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +271,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE48517D23235B7100D5401E /* ViewController.swift in Sources */,
+				EE4851AA23235F8000D5401E /* Card.swift in Sources */,
+				EE4851AC2323634900D5401E /* SetModel.swift in Sources */,
 				EE48517B23235B7100D5401E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
